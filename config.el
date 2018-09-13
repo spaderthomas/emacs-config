@@ -17,8 +17,6 @@
 
 (setq message-log-max nil)
 
-(cd "C:/Users/dboon")
-
 (use-package linum)
 (global-linum-mode t)
 
@@ -285,6 +283,9 @@
 (defun boon-scroll-up ()
   (interactive)
   (scroll-down 10))
+
+(fset 'dialogue
+   (lambda (&optional arg) "Keyboard macro." (interactive "p") (kmacro-exec-ring-item (quote ([123 return 116 101 120 116 32 61 32 34 34 44 return 116 101 114 109 105 110 97 108 32 45 32 backspace backspace 61 32 102 97 108 115 101 59 backspace 44 return 114 101 115 112 111 110 115 101 115 32 61 32 123 125 44 return 99 104 105 108 100 114 101 110 32 61 32 123 125 return 125] 0 "%d")) arg)))
 
 (global-set-key (kbd "M-/") 'comment-or-uncomment-region)
 (global-set-key (kbd "C-w") 'cut-whole-word)

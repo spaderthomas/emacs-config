@@ -44,6 +44,7 @@
 
 ;;; Load the config
 (org-babel-load-file (concat user-emacs-directory "config.org"))
+(org-babel-load-file (concat user-emacs-directory "machine.org"))
 
 ;;(find-file "~/todo.org")
 ;;(make-buffer-uninteresting)
