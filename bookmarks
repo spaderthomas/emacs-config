@@ -1,0 +1,45 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("jobs"
+ (filename . "c:/Users/dboon/jobs.org")
+ (front-context-string . "* Jobs\n** leads\n")
+ (rear-context-string)
+ (position . 1))
+("4540"
+ (filename . "c:/Users/dboon/school/4540/notes.org")
+ (front-context-string . "- definitions of")
+ (rear-context-string)
+ (position . 1))
+("school"
+ (filename . "c:/Users/dboon/school.org")
+ (front-context-string . "* other stuff\n**")
+ (rear-context-string . "2018-09-05 Wed>\n")
+ (position . 170))
+("clock"
+ (filename . "c:/Users/dboon/clock.org")
+ (front-context-string . "\n#+CAPTION: Cloc")
+ (rear-context-string . " :tstart \"<-1m>\"")
+ (position . 827))
+("site"
+ (filename . "c:/Users/dboon/programming/new_site/config.toml")
+ (front-context-string . "baseurl = \"/\"\nla")
+ (rear-context-string)
+ (position . 1))
+("tdengine"
+ (filename . "c:/Users/dboon/programming/tdengine/src/win_main.cpp")
+ (front-context-string . "#define _CRT_SEC")
+ (rear-context-string)
+ (position . 1))
+("todo"
+ (filename . "c:/Users/dboon/documents/todo.org")
+ (front-context-string . "* Miscellaneous ")
+ (rear-context-string)
+ (position . 1))
+("config"
+ (filename . "c:/.emacs.d/config.org")
+ (front-context-string . "\n#+END_SRC\n\nConf")
+ (rear-context-string . "e-log-max nil)\n\n")
+ (position . 642))
+)

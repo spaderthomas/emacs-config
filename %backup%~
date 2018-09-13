@@ -1,0 +1,2026 @@
+{
+    "chunks": {
+        "0,0": [
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.08750000596046448,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.08750000596046448,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.08750000596046448,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.08750000596046448,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.08750000596046448,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.11250000447034836,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.11250000447034836,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.11250000447034836,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.11250000447034836,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.11250000447034836,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.13750000298023224,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.13750000298023224,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.13750000298023224,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.13750000298023224,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.13750000298023224,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.16250000894069672,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.16250000894069672,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.16250000894069672,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.16250000894069672,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.16250000894069672,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.1875,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.1875,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.1875,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.1875,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.1875,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ]
+        ],
+        "0,1": [
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.08750000596046448,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.08750000596046448,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.08750000596046448,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.11250000447034836,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.11250000447034836,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.11250000447034836,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.13750000298023224,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.13750000298023224,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.13750000298023224,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.16250000894069672,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.16250000894069672,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.16250000894069672,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.1875,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.1875,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.1875,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ]
+        ],
+        "1,0": [
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.21250000596046448,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.21250000596046448,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.21250000596046448,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.21250000596046448,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.21250000596046448,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.23750001192092896,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.23750001192092896,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.23750001192092896,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.23750001192092896,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.23750001192092896,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.26249998807907104,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.26249998807907104,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.26249998807907104,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.26249998807907104,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.26249998807907104,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.2874999940395355,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.2874999940395355,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.2874999940395355,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.2874999940395355,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.2874999940395355,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3125,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3125,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3125,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3125,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3125,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3375000059604645,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3375000059604645,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3375000059604645,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3375000059604645,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3375000059604645,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.36249998211860657,
+                                "y": 0.15555556118488312
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.36249998211860657,
+                                "y": 0.20000000298023224
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.36249998211860657,
+                                "y": 0.24444444477558136
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.36249998211860657,
+                                "y": 0.2888889014720917
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.36249998211860657,
+                                "y": 0.3333333432674408
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                }
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ]
+        ],
+        "1,1": [
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.21250000596046448,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.21250000596046448,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.21250000596046448,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.23750001192092896,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.23750001192092896,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.23750001192092896,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.26249998807907104,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.26249998807907104,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.26249998807907104,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.2874999940395355,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.2874999940395355,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.2874999940395355,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3125,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3125,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3125,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3375000059604645,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3375000059604645,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.3375000059604645,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.36249998211860657,
+                                "y": 0.3777777850627899
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.36249998211860657,
+                                "y": 0.42222222685813904
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                {
+                    "Components": [
+                        {
+                            "kind": "Position_Component",
+                            "pos": {
+                                "x": 0.36249998211860657,
+                                "y": 0.46666666865348816
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0
+                            }
+                        },
+                        null
+                    ],
+                    "lua_id": "wood_floor"
+                },
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ],
+            [
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL",
+                "NULL"
+            ]
+        ]
+    },
+    "entities": [
+        {
+            "Components": [
+                null,
+                {
+                    "kind": "Position_Component",
+                    "pos": {
+                        "x": 0.3101562559604645,
+                        "y": 0.3513889014720917
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                },
+                null,
+                null
+            ],
+            "lua_id": "table_"
+        },
+        {
+            "Components": [
+                null,
+                {
+                    "kind": "Position_Component",
+                    "pos": {
+                        "x": 0.3359375,
+                        "y": 0.3541666567325592
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                },
+                null,
+                null
+            ],
+            "lua_id": "chair_left"
+        },
+        {
+            "Components": [
+                null,
+                {
+                    "kind": "Position_Component",
+                    "pos": {
+                        "x": 0.28046876192092896,
+                        "y": 0.3583333194255829
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                },
+                null,
+                null
+            ],
+            "lua_id": "chair_right"
+        },
+        {
+            "Components": [
+                null,
+                {
+                    "kind": "Position_Component",
+                    "pos": {
+                        "x": 0.3539062440395355,
+                        "y": 0.5097222328186035
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                },
+                null,
+                null
+            ],
+            "lua_id": "bookcase"
+        },
+        {
+            "Components": [
+                null,
+                {
+                    "kind": "Position_Component",
+                    "pos": {
+                        "x": 0.30859375,
+                        "y": 0.5083333253860474
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                },
+                null,
+                null
+            ],
+            "lua_id": "bookcase"
+        },
+        {
+            "Components": [
+                null,
+                {
+                    "kind": "Position_Component",
+                    "pos": {
+                        "x": 0.2632812559604645,
+                        "y": 0.5083333253860474
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                },
+                null,
+                null
+            ],
+            "lua_id": "bookcase"
+        },
+        {
+            "Components": [
+                null,
+                {
+                    "kind": "Position_Component",
+                    "pos": {
+                        "x": 0.21875,
+                        "y": 0.5069444179534912
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                },
+                null,
+                null
+            ],
+            "lua_id": "bookcase"
+        },
+        {
+            "Components": [
+                null,
+                {
+                    "kind": "Position_Component",
+                    "pos": {
+                        "x": 0.2265625,
+                        "y": 0.13333332538604736
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    }
+                },
+                null,
+                null,
+                {
+                    "kind": "Door_Component",
+                    "to": "overworld"
+                }
+            ],
+            "lua_id": "door"
+        }
+    ]
+}

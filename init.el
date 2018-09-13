@@ -52,6 +52,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(org-agenda-files
+   (quote
+	("c:/Users/dboon/jobs.org" "c:/Users/dboon/school.org")))
  '(package-selected-packages
    (quote
 	(csharp-mode racket-mode web-mode helm company tern neotree all-the-icons-dired dired-sidebar lua-mode rjsx-mode racer rust-mode dumb-jump auto-complete-clang use-package pabbrev org-plus-contrib cyberpunk-theme cmake-mode))))

@@ -17,7 +17,9 @@
 
 (setq message-log-max nil)
 
-(require 'linum)
+(cd "C:/Users/dboon")
+
+(use-package linum)
 (global-linum-mode t)
 
 ;; scroll one line at a time (less "jumpy" than defaults). note: this may not do anything
@@ -27,19 +29,33 @@
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 (setq scroll-step 1) ;; keyboard scroll one line at a time
 
+(use-package pabbrev
+  :init
+  (setq pabbrev-idle-timer-verbose nil
+		pabbrev-read-only-error nil))
+
+(define-key pabbrev-mode-map [tab] 'pabbrev-expand-maybe)
+(add-hook 'text-mode-hook (lambda () (pabbrev-mode)))
+(add-hook 'prog-mode-hook 'pabbrev-mode)
+
 (use-package org
   :init
   (setq org-src-fontify-natively t
-      org-src-window-setup 'current-window
-      org-src-strip-leading-and-trailing-blank-lines t
-      org-src-preserve-indentation t
-      org-src-tab-acts-natively t
-	  org-clock-persist 'history
-	  org-duration-format (quote h:mm)
-	  org-time-clocksum-format (quote (:hours "%d" :require-hours t :minutes ":%02d" :require-minutes t))
-	  org-agenda-files (list "~/todo.org"))
+		org-src-window-setup 'current-window
+		org-src-strip-leading-and-trailing-blank-lines t
+		org-src-preserve-indentation t
+		org-src-tab-acts-natively t
+		org-clock-persist 'history
+		org-duration-format (quote h:mm)
+		org-time-clocksum-format (quote (:hours "%d" :require-hours t :minutes ":%02d" :require-minutes t))
+		org-agenda-files (list "C:/Users/dboon/school.org"
+							   "C:/Users/dboon/jobs.org"))
   :ensure org-plus-contrib
   :pin fuck-emacs)
+
+(define-key org-mode-map (kbd "C-c i") 'org-clock-in)
+(define-key org-mode-map (kbd "C-c o") 'org-clock-out)
+(define-key org-mode-map (kbd "C-c g") 'org-clock-report)
 
 (define-key org-mode-map (kbd "C-1") 'other-window)
 (define-key org-mode-map (kbd "C-j") 'backward-char)
@@ -91,6 +107,7 @@
   :config
   (setq dired-sidebar-subtree-line-prefix "..")
   (setq dired-sidebar-theme 'nerd))
+(define-key global-map (kbd "C-c s") 'dired-sidebar-show-sidebar)
 
 (use-package web-mode)
 (add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
@@ -101,6 +118,24 @@
 
 (setq web-mode-content-types-alist
   '(("xml"  . "\\.config\\'")))
+
+(add-hook 'text-mode-hook 'visual-line-mode)
+(add-hook 'prog-mode-hook 'visual-line-mode)
+
+(use-package ggtags)
+(add-hook 'c-mode-common-hook
+          (lambda ()
+            (when (derived-mode-p 'c-mode 'c++-mode 'java-mode 'asm-mode)
+              (ggtags-mode 1))))
+
+(define-key ggtags-mode-map (kbd "C-c g s") 'ggtags-find-other-symbol)
+(define-key ggtags-mode-map (kbd "C-c g h") 'ggtags-view-tag-history)
+(define-key ggtags-mode-map (kbd "C-c g r") 'ggtags-find-reference)
+(define-key ggtags-mode-map (kbd "C-c g f") 'ggtags-find-file)
+(define-key ggtags-mode-map (kbd "C-c g c") 'ggtags-create-tags)
+(define-key ggtags-mode-map (kbd "C-c g u") 'ggtags-update-tags)
+
+(define-key ggtags-mode-map (kbd "M-,") 'pop-tag-mark)
 
 (setq text-mode-hook (quote (turn-on-auto-fill text-mode-hook-identify)))
 
@@ -114,18 +149,16 @@
 
 (add-hook 'html-mode-hook 'turn-off-auto-fill)
 
+(add-hook 'c-mode-hook
+  (lambda ()
+   (hs-minor-mode)
+   ))
+
 (setq c-basic-offset 4)
 (setq c-hungry-delete-key -1)
-(define-key c-mode-map (kbd "<f7>") 
-  (lambda () 
-	(interactive)
-	(compile "build.bat")))
-(define-key c-mode-map (kbd "<f5>") 
-  (lambda () 
-	(interactive)
-	(compile "run.bat")))
 
 (setq build-script "build.bat")
+(setq run-script "run.bat")			;
 
 (defun find-project-directory-recursive ()
   "Recursively search for a makefile."
@@ -138,32 +171,27 @@
   "Find the project directory."
   (interactive)
   (switch-to-buffer-other-window "*compilation*")
-  (cd default-directory)
   (find-project-directory-recursive)
   (setq last-compilation-directory default-directory))
 
 (defun make-without-asking ()
   "Make the current build."
   (interactive)
-  (if (find-project-directory) (compile build-script))
-  (other-window 1))
+  (setq old-default default-directory)
+  (when (find-project-directory) (compile build-script))
+  (cd old-default))
 
 (defun run ()
   "Looks for run.bat and executes it"
   (interactive)
-  (if (find-project-directory) 
-	  (progn
-		(cd (concat default-directory "bin"))
-		(shell-command "run.bat"))))
+  (setq old-default default-directory)
+  (when (find-project-directory) (compile run-script))
+  (cd old-default))
 
-(define-key global-map (kbd "<f8>") 'make-without-asking)
+(define-key global-map (kbd "<f7>") 'make-without-asking)
+(define-key global-map (kbd "<f5>") 'run)
 
-(require 'cc-mode)
-
-(add-hook 'c++-mode-hook
-  (lambda ()
-   (hs-minor-mode)
-   ))
+(use-package cc-mode)
 
 (define-key c-mode-map (kbd "C-c b") 'dumb-jump-back)
 (define-key c-mode-map (kbd "C-c g") 'dumb-jump-go)
@@ -172,6 +200,7 @@
 (define-key c-mode-map (kbd "C-d") 'delete-backward-char)
 (define-key c-mode-map (kbd "C-;") 'clang-format-region)
 (define-key c-mode-map (kbd "M-j") 'backward-word) ; bound to newline in c-mode
+(define-key c-mode-map (kbd "C-c f") 'beginning-of-defun)
 
 (define-key c++-mode-map (kbd "C-c b") 'dumb-jump-back)
 (define-key c++-mode-map (kbd "C-c g") 'dumb-jump-go)
@@ -184,22 +213,6 @@
 (autoload 'csharp-mode "csharp-mode" "Major mode for editing C# code." t)
 (setq auto-mode-alist
    (append '(("\\.cs$" . csharp-mode)) auto-mode-alist))
-
-(require 'js2-mode)
-(setq js-indent-level 2)
-(add-hook 'js-mode-hook
-  (lambda ()
-   (hs-minor-mode t)
-   (tern-mode t)
-   ))
-(define-key js-mode-map (kbd "C-c l") 'hs-show-block)
-(define-key js-mode-map (kbd "C-c j") 'hs-hide-block) 
-
-(fset 'es6-func-to-arrow
-   (lambda (&optional arg) "Keyboard macro." (interactive "p") (kmacro-exec-ring-item (quote ("\346export const\354 = 
-=> " 0 "%d")) arg)))
-
-(use-package tern)
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
