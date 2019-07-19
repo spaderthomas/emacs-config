@@ -25,12 +25,15 @@ modes, small aesthetic changes, etc
       `((".*" . ,"~/.saves")))
 
 (setq message-log-max nil)
+
+(setq mac-command-modifier 'control)
+(setq make-backup-files nil)
 #+END_SRC
 
 Configuring linum mode
 #+BEGIN_SRC emacs-lisp
-(use-package linum)
-(global-linum-mode t)
+;(use-package linum)
+;(global-linum-mode t)
 #+END_SRC
 
 This configuration seems to give a nice scrolling 
@@ -69,9 +72,9 @@ blocks in org mode.
 		org-clock-persist 'history
 		org-duration-format (quote h:mm)
 		org-time-clocksum-format (quote (:hours "%d" :require-hours t :minutes ":%02d" :require-minutes t))
-		org-agenda-files (list "C:/Users/dboon/school.org"
-							   "C:/Users/dboon/jobs.org"))
+		org-agenda-files (list "/Users/thspader/agenda.org"))
   :ensure org-plus-contrib
+  :defer t
   :pin fuck-emacs)
 #+END_SRC
  
@@ -122,7 +125,8 @@ Make org-babel load languages, and a
 
 ** clang-format
 #+BEGIN_SRC emacs-lisp
-(use-package clang-format)
+(use-package clang-format
+  :defer t)
 #+END_SRC
 ** autofill
 #+BEGIN_SRC emacs-lisp
@@ -147,10 +151,12 @@ Make org-babel load languages, and a
 (use-package dired-sidebar
   :bind (("C-x C-n" . dired-sidebar-toggle-sidebar))
   :ensure t
+  :defer t
   :commands (dired-sidebar-toggle-sidebar)
   :config
   (setq dired-sidebar-subtree-line-prefix "..")
   (setq dired-sidebar-theme 'nerd))
+
 (define-key global-map (kbd "C-c s") 'dired-sidebar-show-sidebar)
 #+END_SRC
 ** web-mode
@@ -185,6 +191,17 @@ Make org-babel load languages, and a
 (define-key ggtags-mode-map (kbd "C-c g u") 'ggtags-update-tags)
 
 (define-key ggtags-mode-map (kbd "M-,") 'pop-tag-mark)
+#+END_SRC
+** helm
+#+BEGIN_SRC emacs-lisp
+(use-package helm
+  :ensure t
+)
+
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "C-x b") 'helm-buffers-list)
+(global-set-key (kbd "C-x C-f") 'helm-find-files)
+(helm-mode 1)
 #+END_SRC
 * Languages
 ** Text
@@ -254,13 +271,14 @@ Stylistic stuff
 #+END_SRC
 ** C++
 #+BEGIN_SRC emacs-lisp
-(use-package cc-mode)
+(use-package cc-mode
+  )
 #+END_SRC
 
 Hide/Show; dumb jump; formatting
 #+BEGIN_SRC emacs-lisp
-(define-key c-mode-map (kbd "C-c b") 'dumb-jump-back)
-(define-key c-mode-map (kbd "C-c g") 'dumb-jump-go)
+(define-key c-mode-map (kbd "C-.") 'dumb-jump-go)
+(define-key c-mode-map (kbd "C-,") 'dumb-jump-back)
 (define-key c-mode-map (kbd "C-c l") 'hs-show-block)
 (define-key c-mode-map (kbd "C-c j") 'hs-hide-block) 
 (define-key c-mode-map (kbd "C-d") 'delete-backward-char)
@@ -272,8 +290,8 @@ Hide/Show; dumb jump; formatting
 Again, gotta do some overriding so that modes play nice with keybindings, plus
 some convenient stuff to hide and show blocks
 #+BEGIN_SRC emacs-lisp
-(define-key c++-mode-map (kbd "C-c b") 'dumb-jump-back)
-(define-key c++-mode-map (kbd "C-c g") 'dumb-jump-go)
+(define-key c-mode-map (kbd "C-.") 'dumb-jump-go)
+(define-key c-mode-map (kbd "C-,") 'dumb-jump-back)
 (define-key c++-mode-map (kbd "C-c l") 'hs-show-block)
 (define-key c++-mode-map (kbd "C-c j") 'hs-hide-block) 
 (define-key c++-mode-map (kbd "C-d") 'delete-backward-char)
@@ -297,20 +315,29 @@ Point emacs to our pre-installed themes
 Set our default font
 #+BEGIN_SRC emacs-lisp
 ;;(set-frame-font "PxPlus IBM VGA8-11")
-;;(set-frame-font "Inconsolata-12")
+(set-frame-font "Inconsolata-16")
 #+END_SRC
 ** Cyberpunk
 #+BEGIN_SRC emacs-lisp
-(use-package cyberpunk-theme
+;; (use-package cyberpunk-theme
+;;   :if (window-system)
+;;   :ensure t
+;;   :init
+;;   (progn
+;;     (load-theme 'cyberpunk t)
+;;     (set-face-attribute `mode-line nil
+;;                         :box nil)
+;;     (set-face-attribute `mode-line-inactive nil
+;;                         :box nil)))
+#+END_SRC
+** spacemacs-theme
+#+BEGIN_SRC emacs-lisp
+(use-package spacemacs-common
   :if (window-system)
-  :ensure t
+  :ensure spacemacs-theme
   :init
   (progn
-    (load-theme 'cyberpunk t)
-    (set-face-attribute `mode-line nil
-                        :box nil)
-    (set-face-attribute `mode-line-inactive nil
-                        :box nil)))
+    (load-theme 'spacemacs-dark t)))
 #+END_SRC
 * Functions
 #+BEGIN_SRC emacs-lisp

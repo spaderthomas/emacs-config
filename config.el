@@ -17,8 +17,11 @@
 
 (setq message-log-max nil)
 
-(use-package linum)
-(global-linum-mode t)
+(setq mac-command-modifier 'control)
+(setq make-backup-files nil)
+
+;(use-package linum)
+;(global-linum-mode t)
 
 ;; scroll one line at a time (less "jumpy" than defaults). note: this may not do anything
 (setq mouse-wheel-scroll-amount '(2 ((shift) . 2))) ;; 2 lines at a time
@@ -46,9 +49,9 @@
 		org-clock-persist 'history
 		org-duration-format (quote h:mm)
 		org-time-clocksum-format (quote (:hours "%d" :require-hours t :minutes ":%02d" :require-minutes t))
-		org-agenda-files (list "C:/Users/dboon/school.org"
-							   "C:/Users/dboon/jobs.org"))
+		org-agenda-files (list "/Users/thspader/agenda.org"))
   :ensure org-plus-contrib
+  :defer t
   :pin fuck-emacs)
 
 (define-key org-mode-map (kbd "C-c i") 'org-clock-in)
@@ -82,7 +85,8 @@
            (string= lang "emacs-lisp"))))
 (setq org-confirm-babel-evaluate 'my-org-confirm-babel-evaluate)
 
-(use-package clang-format)
+(use-package clang-format
+  :defer t)
 
 (setq-default fill-column 80)
 
@@ -101,10 +105,12 @@
 (use-package dired-sidebar
   :bind (("C-x C-n" . dired-sidebar-toggle-sidebar))
   :ensure t
+  :defer t
   :commands (dired-sidebar-toggle-sidebar)
   :config
   (setq dired-sidebar-subtree-line-prefix "..")
   (setq dired-sidebar-theme 'nerd))
+
 (define-key global-map (kbd "C-c s") 'dired-sidebar-show-sidebar)
 
 (use-package web-mode)
@@ -134,6 +140,15 @@
 (define-key ggtags-mode-map (kbd "C-c g u") 'ggtags-update-tags)
 
 (define-key ggtags-mode-map (kbd "M-,") 'pop-tag-mark)
+
+(use-package helm
+  :ensure t
+)
+
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "C-x b") 'helm-buffers-list)
+(global-set-key (kbd "C-x C-f") 'helm-find-files)
+(helm-mode 1)
 
 (setq text-mode-hook (quote (turn-on-auto-fill text-mode-hook-identify)))
 
@@ -189,10 +204,11 @@
 (define-key global-map (kbd "<f7>") 'make-without-asking)
 (define-key global-map (kbd "<f5>") 'run)
 
-(use-package cc-mode)
+(use-package cc-mode
+  )
 
-(define-key c-mode-map (kbd "C-c b") 'dumb-jump-back)
-(define-key c-mode-map (kbd "C-c g") 'dumb-jump-go)
+(define-key c-mode-map (kbd "C-.") 'dumb-jump-go)
+(define-key c-mode-map (kbd "C-,") 'dumb-jump-back)
 (define-key c-mode-map (kbd "C-c l") 'hs-show-block)
 (define-key c-mode-map (kbd "C-c j") 'hs-hide-block) 
 (define-key c-mode-map (kbd "C-d") 'delete-backward-char)
@@ -200,33 +216,40 @@
 (define-key c-mode-map (kbd "M-j") 'backward-word) ; bound to newline in c-mode
 (define-key c-mode-map (kbd "C-c f") 'beginning-of-defun)
 
-(define-key c++-mode-map (kbd "C-c b") 'dumb-jump-back)
-(define-key c++-mode-map (kbd "C-c g") 'dumb-jump-go)
+(define-key c-mode-map (kbd "C-.") 'dumb-jump-go)
+(define-key c-mode-map (kbd "C-,") 'dumb-jump-back)
 (define-key c++-mode-map (kbd "C-c l") 'hs-show-block)
 (define-key c++-mode-map (kbd "C-c j") 'hs-hide-block) 
 (define-key c++-mode-map (kbd "C-d") 'delete-backward-char)
 (define-key c++-mode-map (kbd "C-;") 'clang-format-region)
 (define-key c++-mode-map (kbd "M-j") 'backward-word) ; bound to newline in c-mode
 
-(autoload 'csharp-mode "csharp-mode" "Major mode for editing C# code." t)
-(setq auto-mode-alist
-   (append '(("\\.cs$" . csharp-mode)) auto-mode-alist))
+  (autoload 'csharp-mode "csharp-mode" "Major mode for editing C# code." t)
+  (setq auto-mode-alist
+     (append '(("\\.cs$" . csharp-mode)) auto-mode-alist))
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
 ;;(set-frame-font "PxPlus IBM VGA8-11")
-;;(set-frame-font "Inconsolata-12")
+(set-frame-font "Inconsolata-16")
 
-(use-package cyberpunk-theme
+;; (use-package cyberpunk-theme
+;;   :if (window-system)
+;;   :ensure t
+;;   :init
+;;   (progn
+;;     (load-theme 'cyberpunk t)
+;;     (set-face-attribute `mode-line nil
+;;                         :box nil)
+;;     (set-face-attribute `mode-line-inactive nil
+;;                         :box nil)))
+
+(use-package spacemacs-common
   :if (window-system)
-  :ensure t
+  :ensure spacemacs-theme
   :init
   (progn
-    (load-theme 'cyberpunk t)
-    (set-face-attribute `mode-line nil
-                        :box nil)
-    (set-face-attribute `mode-line-inactive nil
-                        :box nil)))
+    (load-theme 'spacemacs-dark t)))
 
 (defun rename-file-and-buffer (new-name)
   "Renames both current buffer and file it's visiting to NEW-NAME."

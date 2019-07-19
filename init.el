@@ -32,7 +32,6 @@
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
   (package-install 'use-package))
-
 ;; From use-package README
 (eval-when-compile
   (require 'use-package))
@@ -58,7 +57,7 @@
 	("c:/Users/dboon/jobs.org" "c:/Users/dboon/school.org")))
  '(package-selected-packages
    (quote
-	(csharp-mode racket-mode web-mode helm company tern neotree all-the-icons-dired dired-sidebar lua-mode rjsx-mode racer rust-mode dumb-jump auto-complete-clang use-package pabbrev org-plus-contrib cyberpunk-theme cmake-mode))))
+	(spacemacs-theme tide tabbar csharp-mode racket-mode web-mode helm company tern neotree all-the-icons-dired dired-sidebar lua-mode rjsx-mode racer rust-mode dumb-jump auto-complete-clang use-package pabbrev org-plus-contrib cyberpunk-theme cmake-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
