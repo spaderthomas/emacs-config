@@ -18,6 +18,7 @@
 (setq message-log-max nil)
 
 (setq mac-command-modifier 'control)
+(setq mac-option-modifier 'meta)
 (setq make-backup-files nil)
 
 ;(use-package linum)
@@ -224,9 +225,9 @@
 (define-key c++-mode-map (kbd "C-;") 'clang-format-region)
 (define-key c++-mode-map (kbd "M-j") 'backward-word) ; bound to newline in c-mode
 
-  (autoload 'csharp-mode "csharp-mode" "Major mode for editing C# code." t)
-  (setq auto-mode-alist
-     (append '(("\\.cs$" . csharp-mode)) auto-mode-alist))
+(autoload 'csharp-mode "csharp-mode" "Major mode for editing C# code." t)
+(setq auto-mode-alist
+   (append '(("\\.cs$" . csharp-mode)) auto-mode-alist))
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 

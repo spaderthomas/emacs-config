@@ -27,6 +27,7 @@ modes, small aesthetic changes, etc
 (setq message-log-max nil)
 
 (setq mac-command-modifier 'control)
+(setq mac-option-modifier 'meta)
 (setq make-backup-files nil)
 #+END_SRC
 
